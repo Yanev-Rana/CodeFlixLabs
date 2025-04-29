@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint main() {\r\n    int num;\r\n    scanf(\"%d\", &num);\r\n    int flipped = ~num;  // Apply bitwise NOT (~) operation\r\n    printf(\"%d\\n\", flipped);  // Print the flipped number\r\n    return 0;\r\n}","language":"c","time":"2025-04-29T04:14:56.360Z","isCorrect":true}]

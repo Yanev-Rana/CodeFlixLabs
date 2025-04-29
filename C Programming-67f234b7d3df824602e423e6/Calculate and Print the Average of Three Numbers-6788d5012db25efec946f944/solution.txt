@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\n\r\nint main() {\r\n    int num1, num2, num3;\r\n    float average;\r\n\r\n    scanf(\"%d %d %d\", &num1, &num2, &num3);\r\n\r\n    average = (float)(num1 + num2 + num3) / 3;\r\n\r\n    printf(\"Average: %.2f\", average);\r\n\r\n    return 0;\r\n}","language":"c","time":"2025-04-29T03:51:11.354Z","isCorrect":true}]

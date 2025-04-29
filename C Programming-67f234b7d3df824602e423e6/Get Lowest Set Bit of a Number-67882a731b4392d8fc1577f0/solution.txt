@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint main(){\r\n    int num,n;\r\n    scanf(\"%d %d\", &num,&n);\r\n    int pos = 0;\r\n    while ((num & 1) == 0) { \r\n        num >>= 1;\r\n        pos++;\r\n    }\r\n    printf(\"%d\", pos); \r\n    return 0;\r\n}","language":"c","time":"2025-04-29T04:13:50.808Z","isCorrect":true}]

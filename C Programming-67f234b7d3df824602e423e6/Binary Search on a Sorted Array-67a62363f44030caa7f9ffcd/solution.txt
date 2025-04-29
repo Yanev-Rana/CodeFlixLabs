@@ -1,0 +1,1 @@
+[{"code":"int binarySearch(int* arr, int n, int target){\r\n    int i = 0;\r\n    int j = n-1;\r\n    while(i<=j){\r\n        int mid = i + (j-i)/2;\r\n        if(arr[mid]==target) return mid;\r\n        else if(target<arr[mid]) j = mid - 1;\r\n        else i = mid + 1;\r\n    }\r\n    return -1;\r\n}","language":"c","time":"2025-04-29T04:40:44.315Z","isCorrect":true}]

@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint main(){\r\n    int i,j;\r\n    scanf(\"%d %d\",&i,&j);\r\n    i = i^j;\r\n    j = i^j;\r\n    i = i^j;\r\n    printf(\"%d %d\",i,j);\r\n    return 0;\r\n}","language":"c","time":"2025-04-29T04:15:39.757Z","isCorrect":true}]

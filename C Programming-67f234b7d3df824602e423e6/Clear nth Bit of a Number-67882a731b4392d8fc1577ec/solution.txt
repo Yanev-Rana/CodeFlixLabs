@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\nint main(){\r\n    int num,n;\r\n    scanf(\"%d %d\", &num,&n);\r\n    printf(\"%d\", num & ~(1<<n)); \r\n    return 0;\r\n}\r\n","language":"c","time":"2025-04-29T04:13:15.581Z","isCorrect":true}]

@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint main() {\r\n    int a;\r\n    scanf(\"%d\", &a);\r\n    if((a%100!=0 || a%400==0) && a%4==0){\r\n        printf(\"Leap Year\");\r\n    } else{\r\n        printf(\"Not a Leap Year\");\r\n    }\r\n    return 0;\r\n}","language":"c","time":"2025-04-29T04:17:37.003Z","isCorrect":true}]

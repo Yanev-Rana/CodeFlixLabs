@@ -1,0 +1,1 @@
+[{"code":"#include <stdio.h>\r\nint main() {\r\n    int x,y;\r\n    scanf(\"%d %d\", &x,&y);\r\n    if((x>0 && y>0) || (x<0 && y<0)) {\r\n        printf(\"Same Sign\");\r\n    } else {\r\n        printf(\"Different Sign\");\r\n    }\r\n    return 0;\r\n}","language":"c","time":"2025-04-29T04:25:08.565Z","isCorrect":true}]
